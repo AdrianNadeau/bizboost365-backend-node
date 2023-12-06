@@ -1,6 +1,5 @@
 const express = require('express');
 const route = express.Router();
-const BASE_API_URL = "http://localhost:5000/api/v1"
 
 // Contorller
 const AuthController = require("../controllers/AuthController");
